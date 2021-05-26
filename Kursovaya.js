@@ -8,7 +8,7 @@ var BackImage = new Image;
 	BackImage.onload = function() {
 	console.log('Loaded')
 	}
-	BackImage.src = 'stroika2.jpg';
+	BackImage.src = 'stroika.png';
 function main() {	
 	var ctx = canvas_ex.getContext('2d');
 	var w = canvas_ex.width;
